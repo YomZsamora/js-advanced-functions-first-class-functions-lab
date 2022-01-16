@@ -9,3 +9,10 @@ let selectingDrivers = [
     returnFirstTwoDrivers, 
     returnLastTwoDrivers
 ];
+
+// createFareMultiplier()returns a function that should multiply a given value using the created multiplier
+function createFareMultiplier() {
+    return function(multiplier) {
+        return multiplier * 5;
+    }
+}

@@ -2,12 +2,12 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 5,
+    "passes": 7,
     "pending": 0,
-    "failures": 8,
-    "start": "2022-01-16T16:52:22.110Z",
-    "end": "2022-01-16T16:52:23.324Z",
-    "duration": 1214
+    "failures": 6,
+    "start": "2022-01-16T16:59:11.633Z",
+    "end": "2022-01-16T16:59:12.882Z",
+    "duration": 1249
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -50,20 +50,14 @@
       "fullTitle": "index.js createFareMultiplier() returns a function",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "createFareMultiplier is not defined"
-      }
+      "err": {}
     },
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:44:30)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "createFareMultiplier is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is a function",
@@ -98,7 +92,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -129,26 +123,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns a function",
-      "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "createFareMultiplier is not defined"
-      }
-    },
-    {
-      "title": "should multiply a given value using the created multiplier",
-      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:44:30)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "createFareMultiplier is not defined"
-      }
-    },
-    {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
       "duration": 0,
@@ -181,7 +155,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -227,7 +201,7 @@
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -241,6 +215,20 @@
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a function",
+      "fullTitle": "index.js createFareMultiplier() returns a function",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should multiply a given value using the created multiplier",
+      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
