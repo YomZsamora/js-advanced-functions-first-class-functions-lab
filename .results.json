@@ -2,33 +2,27 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 3,
+    "passes": 5,
     "pending": 0,
-    "failures": 10,
-    "start": "2022-01-16T16:37:26.155Z",
-    "end": "2022-01-16T16:37:27.211Z",
-    "duration": 1056
+    "failures": 8,
+    "start": "2022-01-16T16:52:22.110Z",
+    "end": "2022-01-16T16:52:23.324Z",
+    "duration": 1214
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Sally\"\n  \"Bob\"\n]",
-        "expected": "[\n  \"Freddy\"\n  \"Claudia\"\n]",
-        "stack": "AssertionError: expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]\n    at Context.<anonymous> (test/indexTest.js:16:78)\n    at processImmediate (node:internal/timers:463:21)"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
@@ -40,7 +34,7 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -49,18 +43,12 @@
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Sally\"\n  \"Bob\"\n]",
-        "expected": "[\n  \"Freddy\"\n  \"Claudia\"\n]",
-        "stack": "AssertionError: expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]\n    at Context.<anonymous> (test/indexTest.js:32:47)\n    at processImmediate (node:internal/timers:463:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at processImmediate (node:internal/timers:463:21)",
@@ -90,7 +78,7 @@
     {
       "title": "doubles fares",
       "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:56:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -141,35 +129,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "should return an array of the last two drivers",
-      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Sally\"\n  \"Bob\"\n]",
-        "expected": "[\n  \"Freddy\"\n  \"Claudia\"\n]",
-        "stack": "AssertionError: expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]\n    at Context.<anonymous> (test/indexTest.js:16:78)\n    at processImmediate (node:internal/timers:463:21)"
-      }
-    },
-    {
-      "title": "allows us to invoke either function from the array",
-      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]",
-        "showDiff": true,
-        "actual": "[\n  \"Sally\"\n  \"Bob\"\n]",
-        "expected": "[\n  \"Freddy\"\n  \"Claudia\"\n]",
-        "stack": "AssertionError: expected [ 'Sally', 'Bob' ] to deeply equal [ 'Freddy', 'Claudia' ]\n    at Context.<anonymous> (test/indexTest.js:32:47)\n    at processImmediate (node:internal/timers:463:21)"
-      }
-    },
-    {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at processImmediate (node:internal/timers:463:21)",
@@ -199,7 +161,7 @@
     {
       "title": "doubles fares",
       "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:56:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -251,7 +213,14 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 2,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -265,7 +234,14 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
