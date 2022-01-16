@@ -2,12 +2,12 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 7,
+    "passes": 9,
     "pending": 0,
-    "failures": 6,
-    "start": "2022-01-16T16:59:11.633Z",
-    "end": "2022-01-16T16:59:12.882Z",
-    "duration": 1249
+    "failures": 4,
+    "start": "2022-01-16T17:05:12.748Z",
+    "end": "2022-01-16T17:05:13.992Z",
+    "duration": 1244
   },
   "tests": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 0,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -64,20 +64,14 @@
       "fullTitle": "index.js fareDoubler() is a function",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:52:14)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "fareDoubler is not defined"
-      }
+      "err": {}
     },
     {
       "title": "doubles fares",
       "fullTitle": "index.js fareDoubler() doubles fares",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:56:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "fareDoubler is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is a function",
@@ -92,7 +86,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -102,7 +96,7 @@
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:72:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -124,26 +118,6 @@
   "failures": [
     {
       "title": "is a function",
-      "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:52:14)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "fareDoubler is not defined"
-      }
-    },
-    {
-      "title": "doubles fares",
-      "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: fareDoubler is not defined\n    at Context.<anonymous> (test/indexTest.js:56:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "fareDoubler is not defined"
-      }
-    },
-    {
-      "title": "is a function",
       "fullTitle": "index.js fareTripler() is a function",
       "duration": 0,
       "currentRetry": 0,
@@ -155,7 +129,7 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:66:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -165,7 +139,7 @@
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:72:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -208,7 +182,7 @@
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 0,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -222,13 +196,27 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is a function",
+      "fullTitle": "index.js fareDoubler() is a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "doubles fares",
+      "fullTitle": "index.js fareDoubler() doubles fares",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
