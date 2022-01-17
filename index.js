@@ -11,11 +11,14 @@ let selectingDrivers = [
 ];
 
 // createFareMultiplier()returns a function that should multiply a given value using the created multiplier
-function createFareMultiplier() {
-    return function(multiplier) {
-        return multiplier * 5;
+function createFareMultiplier(multiplier) {
+    return function(fare) {
+        return multiplier * fare;
     }
 }
 
+// Declared a variable with const and assign a function returned by createFareMultiplier() to it.
+const fare = createFareMultiplier();
+
 // fareDoubler() is a function that doubles fare
-let fareDoubler = fare => fare * 2 
+let fareDoubler = fare => fare * 2
